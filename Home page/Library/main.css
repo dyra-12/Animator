@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+.cover img{
+    height: 500px;
+    width: 100%;
+    filter: brightness(50%);
+    border-bottom: 4px solid white;
+}
+
+
+.profile img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 201px;
+    left: 580px;
+    border-radius: 10vh;
+    border: 2px solid white;
+
+}
+
+.profile h1{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 410px;
+    left: 605px;
+    background-color: transparent;
+}
+
+.profile h2{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 410px;
+    left: 580px;
+    background-color: transparent;
+}
+
+.lib h2{
+    font-size: 50px;
+}
+
+ul li{
+    
+    
+    margin: 20px 20px;
+}
+
+ul li ul li img{
+    height: 300px;
+    width: 250px;
+}
+
+ul li ul li p{
+    color: white;
+    position: relative;
+    z-index: 1;
+    top: -40px;
+    padding-left: 10px;
+    font-size: large;
+    background-color: transparent;
+    backdrop-filter: brightness(50%) blur(2px);
+    
+}
